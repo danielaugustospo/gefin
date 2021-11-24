@@ -15,6 +15,10 @@ Thumbs.db
 # composer vendor dir
 /vendor
 
+#pasta configuracao banco
+config/db.php
+/config/db.php
+
 # development support files
 /dev
 /database
