@@ -13,7 +13,7 @@ use app\assets\AppAsset;
     <meta charset="<?= Yii::$app->charset ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title>Economizzer</title>
+    <title>GEFIN - DanielTECH</title>
     <?php $this->head();
     AppAsset::register($this);
     $js = <<< 'SCRIPT'
@@ -40,8 +40,8 @@ SCRIPT;
     <link rel="icon" type="image/png" href="<?php echo Yii::$app->request->baseUrl;?>/images/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="<?php echo Yii::$app->request->baseUrl;?>/images/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="<?php echo Yii::$app->request->baseUrl;?>/images/manifest.json">
-    <meta name="apple-mobile-web-app-title" content="Economizzer">
-    <meta name="application-name" content="Economizzer">
+    <meta name="apple-mobile-web-app-title" content="GEFIN">
+    <meta name="application-name" content="GEFIN">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -51,7 +51,7 @@ SCRIPT;
     <div class="wrap">
         <?php
             NavBar::begin([
-                'brandLabel' => '<img src="'.Yii::$app->request->baseUrl.'/images/logo-icon.png" style="height:20px;float:left;margin-right: 5px" align="absbottom">  Economizzer',
+                'brandLabel' => '<img src="'.Yii::$app->request->baseUrl.'/images/logo-icon.png" style="height:20px;float:left;margin-right: 5px" align="absbottom">  GEFIN - DanielTECH',
                 'brandUrl' => Yii::$app->homeUrl,
                 'options' => [
                     'class' => 'navbar navbar-default navbar-fixed-top',
@@ -98,9 +98,7 @@ SCRIPT;
 
     <footer class="footer">
         <div class="container" align="center">
-            <?= Html::a('Economizzer', 'http://www.economizzer.org', ['target'=>'_blank']) ?> &copy; <?= date('Y') ?>  
-            <?= Html::a('<i class="fa fa-twitter-square fa-lg"></i>', 'https://twitter.com/economizzer', ['target'=>'_blank']) ?> 
-            <?= Html::a('<i class="fa fa-facebook-square fa-lg"></i>', 'https://www.facebook.com/economizzer', ['target'=>'_blank']) ?>
+            <?= Html::a('GEFIN - DanielTECH', 'http://www.danieltecnologia.com', ['target'=>'_blank']) ?> &copy; <?= date('Y') ?>  
         </div>
     </footer>
 

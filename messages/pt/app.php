@@ -47,7 +47,7 @@ return [
     'Create an account' => 'Criar uma conta',
     'Create category' => 'Adicionar categoria',
     'Created' => 'Incluído',
-    'Creating your account on Economizzer.org you agree to the terms and usage policies,' => 'Criando sua conta no Economizzer.org você está de acordo com os termos e políticas de uso.',
+    'Creating your account on Economizzer.org you agree to the terms and usage policies,' => 'Criando sua conta no GENFIN - DTECH você está de acordo com os termos e políticas de uso.',
     'Current Month' => 'Mês Atual',
     'Current Password' => 'Senha Atual',
     'Dashboard Page' => 'Painel',
